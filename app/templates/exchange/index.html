@@ -1,0 +1,23 @@
+{%extends "exchange/base.html"%}
+{% load static %}
+{% block content %}
+<div class="exchange-form">
+    <h2 class="title-form">Конвертер Валют</h2>
+    <form action="/" method="post">
+        {% csrf_token %}
+        {% for field in form%}
+        <div>
+            {{field.label_tag}}
+            {{field.errors}}
+            {{field}}
+        </div>
+        {%endfor%}
+        <button type="submit">Рассчитать</button>
+    </form>
+    {%if converted_curr%}
+    <h1>
+        Итого: {{converted_curr}}{{to_curr}}
+    </h1>
+    {%endif%}
+</div>
+{% endblock %}
