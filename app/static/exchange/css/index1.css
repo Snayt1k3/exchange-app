@@ -80,7 +80,12 @@ label[for='id_value']{
 
 }
 
+input{
+    outline-offset: 0;
+    outline: none !important;;
+}
 input[id="id_value"]{
+    
     position: relative;
     top: 22px;
     right: 30px;
