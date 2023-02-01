@@ -11,11 +11,11 @@
   (2) Sqlite3 <br>
 
 ## Installation
-(1) git clone https://github.com/Snayt1k3/ecommerce-website.git <br>
+(1) git clone https://github.com/Snayt1k3/exchange-app.git <br>
 (2) you need a sign-up <https://currencyapi.com/> <br>
 (3) set your apikey in views.py <br>
-(4) ```python pip install -r requirements.txt ```<br>
-(5)  ```python python manage.py runserver  ``` <br>
+(4) ``` pip install -r requirements.txt ```<br>
+(5)  ``` python manage.py runserver  ``` <br>
 
 
 ### P.S.
