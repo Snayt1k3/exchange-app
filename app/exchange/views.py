@@ -20,9 +20,11 @@ class ExchangeView(FormView):
         value = request.POST.get("value")
         context = {"form": form, 'from_curr': from_curr,
                    'to_curr': to_curr, "value": value}
+
         if from_curr != to_curr:
             res = requests.get(
-                "https://api.currencyapi.com/v3/latest?apikey=Gn2mNO4kBzM1KD7tkrk1kj7Utle9k33as8pcwZCf").json()
+                "your_api").json()
+
             converted_curr = round((res['data'][to_curr]["value"] / res['data'][from_curr]["value"]) * float(value), 2)
 
             context.update({'converted_curr': converted_curr})

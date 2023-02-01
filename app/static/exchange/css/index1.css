@@ -23,60 +23,9 @@ body{
     margin-top: 5px;
 }
 
-button{
-    background-color: aliceblue;
-    color: black;
-    margin: auto 12rem 5px;
-    padding: 0.9rem;
-    border-radius: 30px;
-    box-shadow: 0 2px 8px purple;
-    border: 0;
-    
-}
-
 button:hover {
     cursor: pointer;
-    color: aliceblue;
-    background: linear-gradient(rgb(97, 5, 130), rgb(186, 15, 247));
 }
-label[for="id_currency_from"]{
-    position: relative;
-    bottom: 25px;
-    margin-left: 13rem;
-    margin-bottom: 1rem;
-}
-
-select[id="id_currency_from"]{
-    position: relative;
-    border-radius: 5px;
-    width: 10%;
-    right: 65px;
-    bottom: 2px;
-    box-shadow: 0 2px 8px purple;
-}
-
-
-label[for="id_currency_to"]{
-    position: relative;
-    margin-left: 19rem;
-    bottom: 47px;
-
-}
-
-
-select[id="id_currency_to"]{
-    border-radius: 5px;
-    width: 10%;
-    position: relative;
-    bottom: 27px;
-    right: 75px;
-    box-shadow: 0 2px 8px purple;
-}
-
-label[for='id_value']{
-    position: relative;
-    left: 60px;
-    margin-left: 2rem;
 
 }
 
@@ -84,25 +33,6 @@ input{
     outline-offset: 0;
     outline: none !important;;
 }
-input[id="id_value"]{
-    
-    position: relative;
-    top: 22px;
-    right: 30px;
-    border-radius: 8px;
-    border-color: white;
-    box-shadow: 0 2px 8px purple;
-
-    width: 20%;
-}
-h1{
-    color: aliceblue;
-    text-shadow: purple 1px 0 10px;
-    text-align: center;
-    margin-right: 3rem;
-}
-
-
 
 select[id="id_currency_to"]:hover{
     cursor: pointer;
