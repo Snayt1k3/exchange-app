@@ -15,7 +15,7 @@
 (2) you need a sign-up <https://currencyapi.com/> <br>
 (3) set your apikey in views.py <br>
 (4) ```python pip install -r requirements.txt ```<br>
-(5) python manage.py runserver <br>
+(5)  ```python python manage.py runserver  ``` <br>
 
 
 ### P.S.
